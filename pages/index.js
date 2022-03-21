@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
-const URL = 'http://localhost:5000' 
+const URL = 'https://momsbackend.herokuapp.com' 
 const TWcound = 16
 const startmoney = 100
 
