@@ -75,10 +75,8 @@ export default function Home() {
 
           </ul>
         </div>
-        {dates.length > 0 && !DisplayAddWeek ?
-          <div onClick={()=>{setDisplayAddWeek(true)}} style={{color:'#6ca2ff', cursor: 'pointer', padding: '0 5px'}}>add week</div>
-        :null
-      }
+        <div onClick={()=>{setDisplayAddWeek(true)}} style={{color:'#6ca2ff', cursor: 'pointer', padding: '0 5px'}}>add week</div>
+
       {DisplayAddWeek?
         <AddWeek ld={dates[dates.length - 1]} p={percentages} />
       :null
