@@ -34,7 +34,7 @@ export default function Home() {
       <div className={styles.container}>
         <nav className={styles.nav}>
           <ul>
-            <li>week's</li>
+            <li>{"week's"}</li>
             <li>percentages</li>
             <li>expected p.</li>
             <li>e. m.</li>
